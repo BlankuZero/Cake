@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<!--
+    NAME: Salonga, Louise Fernando
+    SECTION: WD-203
+-->
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Final Examination in Webtech - 203</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+        <link rel="stylesheet" href="main.css">
+
+    </head>
+
+    <body>
+        <header class="header">
+            <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Cake </a>
+            <nav class="navbar">
+                <a href="Main.htm">Home</a>
+                <a href="shop.htm">Shop</a>
+                <a href="About.htm">About</a> 
+            </nav>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="cart-btn" class="fas fa-shopping-cart"></div>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </header>
+
+        <!--Start-->
+        <section class="home" id="home">
+            <div class="slides-container">
+                <div class="slide active">
+                    <div class="content">
+                        <span>Have a Cake-tastic Deal!</span>
+                        <h3>Up to 50% off!</h3>
+                        <a href="#" class="btn">Shop Now</a>
+                    </div>
+                    <div class="img">
+                        <img src="Photos/Bf.png" alt="">
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="content">
+                        <span>Have a Cake-tastic Deal!</span>
+                        <h3>Up to 50% off!</h3>
+                        <a href="#" class="btn">Shop Now</a>
+                    </div>
+                    <div class="img">
+                        <img src="Photos/RVV.png" alt="">
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="content">
+                        <span>Have a Cake-tastic Deal!</span>
+                        <h3>Up to 50% off!</h3>
+                        <a href="#" class="btn">Shop Now</a>
+                    </div>
+                    <div class="img">
+                        <img src="Photos/Ch.png" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+            <div id="prev-slide" class="fas fa-angle-left" onclick="prev()"></div>
+        </section>
+
+<section class="banner-container">
+
+    <div class="banner">
+        <img src="Photos/banner3.png" alt="">
+        <div class="content">
+        <span>Limited Sales!</span>
+        <h3>Up to 50% Off!</h3>
+        <a href="#" class="btn">Shop Now!</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img src="Photos/banner2.png" alt="">
+        <div class="content">
+        <span>Limited Sales!</span>
+        <h3>Up to 50% Off!</h3>
+        <a href="#" class="btn">Shop Now!</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img src="Photos/banner1.png" alt="">
+        <div class="content">
+        <span>Limited Sales!</span>
+        <h3>Up to 50% Off!</h3>
+        <a href="#" class="btn">Shop Now!</a>
+    </div>
+    </div>
+
+</section>
+
+<!--Categories-->
+
+<div class="heading">
+    <h1>Our Shop</h1>
+    <!-- <p><a href="Main.htm">Home >></a> Shop </p> -->
+</div>
+
+<section class="category">
+    <h1 class="title">Our <span>Category</span><a href="#">View All >></a></h1>
+
+<div class="box-container">
+    <a href="#" class="box">
+        <img src="Photos/cup.jpg" alt="">
+        <h3>Fresh Cupcakes</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="Photos/cuk.jpg" alt="">
+        <h3>Cookies</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="Photos/Bread.jpg" alt="">
+        <h3>Freshly Baked Bread</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="Photos/Choc.jpg" alt="">
+        <h3>Chocolates</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="Photos/wt.jfif" alt="">
+        <h3>Wheat</h3>
+    </a>
+
+</div>
+
+</section>
+
+<!--Products Section-->
+
+<section class="products">
+    <h1 class="title">Our <span>Prodcuts</span><a href="shop.htm">View All >></a></h1>
+
+<div class="box-container">
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="photos/Red.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Red Velvet Cake</h3>
+            <div class="price">$19.99</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="photos/Black.jpg  " alt="">
+        </div>
+        <div class="content">
+            <h3>Black Forest Cake</h3>
+            <div class="price">$29.99</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="photos/sponge.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Sponge Cake</h3>
+            <div class="price">$16.99</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="photos/biscuit.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Biscuit Cake</h3>
+            <div class="price">$21.99</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="photos/butter.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Butter Cake</h3>
+            <div class="price">$24.99</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</section>
+
+<!--About Section-->
+<div class="heading">
+    <h1>About Us</h1>
+    <!-- <p><a href="Main.htm">Home >></a> Shop </p> -->
+</div>
+
+<section class="about">
+    <div class="img">
+        <img src="Photos/abbout.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <span>Welcome to our products</span>
+        <h3>Cake-tastic Products</h3>
+        <p>Back in 2022, a humble man wanted to start his own baking company. Making bread, pastries, cakes, and everything else that you would normally see in a bakery.
+            He was determined to build his very own company as a young age. As time flew by, he got the chance of building his very first bakery. A baker which he cherished like one of his most prized possessions.
+            Everyone in town loved his bread and his bakery grew, and grew until he finally built his second bakery across town. As time passed by his bakeries grew and scattered around the country, making his name known by everyone.
+        <p>This website is to have your custom cake delivered at your doorstep, or a walk-in for reservations instead of waiting in line or going to the store yourself and pick up something.
+            Everything you see here is customizable and baked with only the best ingredients, created by the finest bakers in the world.  
+        </p>
+        <a href="About.htm" class="btn">Read More</a>
+    </div>
+</section>
+
+
+<section class="gallery">
+    <h1 class="title">Our <span>Gallery</span><a href="#">View All >></a></h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="Photos/1.jfif" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Photos/2.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Photos/3.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Photos/4.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Photos/5.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Photos/6.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Photos/7.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Photos/8.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Photos/9.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Photos/0.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+
+<div class="heading">
+    <h1>Client's Review</h1>
+</div>
+
+<section class="info-container">
+
+    <div class="info">
+        <img src="Photos/deliver.png" alt="">
+        <div class="content">
+            <h3>Fast Delivery</h3>
+            <span>Within 30 Minutes</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img src="Photos/ret.png" alt="">
+        <div class="content">
+            <h3>Five out of five</h3>
+            <span>Amazing Website</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img src="Photos/sev.png" alt="">
+        <div class="content">
+            <h3>Accomodating service</h3>
+            <span>Would buy from here again</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img src="Photos/cek.png" alt="">
+        <div class="content">
+            <h3>Best cake I've bought in my life</h3>
+            <span>Would recommend</span>
+        </div>
+    </div>
+</section>
+
+<div class="space"></div>
+
+<!--Footer-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="Main.htm"><i class="fas fa-arrow-right"></i>Home</a>
+            <a href="shop.htm"><i class="fas fa-arrow-right"></i>Shop</a>
+            <a href="About.htm"><i class="fas fa-arrow-right"></i>About</a>   
+        </div>
+
+        <div class="box">
+            <h3>Extra Links</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i>My Order</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>My Favorites</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>My Wishlist</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>My Account</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>Terms of Use</a>
+        </div>
+
+        <div class="box">
+            <h3>Newsletter</h3>
+            <p>Subscribe for the latest updates!</p>
+            <form action="">
+                <input type="email" placeholder="Enter Your Email Address">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+    </body>
+</html>
